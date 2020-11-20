@@ -10,7 +10,8 @@
     "build:extract:css": "webpack --config ./plugin-extract-text/webpack.config.js",
     "build:dev": "webpack serve --config ./webpack-dev-server/webpack.config.js",
     "build:babel": "webpack --config ./babel-loader/webpack.config.js",
-    "build:img": "webpack --config ./url-loader-img/webpack.config.js"
+    "build:img": "webpack --config ./url-loader-img/webpack.config.js",
+    "build:fonts": "webpack --config ./url-loader-fonts/webpack.config.js"
   },
   "author": "Luis Felipe Cerero Garcia",
   "license": "ISC",
