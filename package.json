@@ -7,7 +7,8 @@
     "build:local": "webpack",
     "build:external": "webpack --config ./external/webpack.config.js",
     "build:css": "webpack --config ./css-style-loader/webpack.config.js",
-    "build:extract:css": "webpack --config ./plugin-extract-text/webpack.config.js"
+    "build:extract:css": "webpack --config ./plugin-extract-text/webpack.config.js",
+    "build:dev": "webpack serve --config ./webpack-dev-server/webpack.config.js"
   },
   "author": "Luis Felipe Cerero Garcia",
   "license": "ISC",
