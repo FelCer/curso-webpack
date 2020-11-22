@@ -17,7 +17,8 @@
     "build:react": "webpack --config ./react/webpack.config.js",
     "build:sass": "webpack --config ./sass-loader/webpack.config.js",
     "build:stylus": "webpack --config ./stylus-loader/webpack.config.js",
-    "build:less": "webpack --config ./less-loader/webpack.config.js"
+    "build:less": "webpack --config ./less-loader/webpack.config.js",
+    "build:postcss": "webpack --config ./post-css-loader/webpack.config.js"
   },
   "author": "Luis Felipe Cerero Garcia",
   "license": "ISC",
@@ -35,6 +36,9 @@
     "mini-css-extract-plugin": "1.3.1",
     "nib": "1.1.2",
     "node-sass": "5.0.0",
+    "postcss": "^8.1.9",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^4.1.0",
     "rupture": "0.7.1",
     "sass-loader": "10.1.0",
     "style-loader": "2.0.0",
