@@ -1,0 +1,9 @@
+$miBack: red;
+$miBorder: 2px + 3px;
+$miPanding: $miBorder *2;
+
+.Teachers {
+    background: $miBack;
+    border: $miBorder dashed orange;
+    padding: $miPanding;
+}
