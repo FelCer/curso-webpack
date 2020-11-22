@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Reey-Regular';
+    src: url('../fonts/Reey-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    min-height: 100vh;
+    font-size: 45px;
+    font-family: 'Reey-Regular';
+}
