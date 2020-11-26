@@ -1,0 +1,16 @@
+{
+    "teachers": [
+        {
+            "name": "Profesor 1",
+            "red": "Red 1"
+        },
+        {
+            "name": "Profesor 2",
+            "red": "Red 2"
+        },
+        {
+            "name": "Profesor 3",
+            "red": "Red 3"
+        }   
+    ]
+}
