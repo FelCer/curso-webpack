@@ -7,7 +7,8 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'js/[name].js'
+        filename: 'js/[name].js',
+        chunkFilename: 'js/[id].[chunkhash].js'
     },
     module: {
         rules: [
@@ -35,7 +36,7 @@ module.exports = {
                     options: {
                         limit: 255000,//limite de peso del archivo. BITS 
                         fallback: 'file-loader',
-                        name: 'images/[name].[hash].[ext]'
+                        name: 'images/[name].[chunkhash].[ext]'
                     }
                 }
             },
