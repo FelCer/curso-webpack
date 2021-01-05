@@ -15,6 +15,8 @@ import { createStore } from 'redux';
 import easterA from './images/easter-a.png';
 import easterB from './images/easter-b.png';
 
+
+console.log("test");
 const initialState = {
   isAnimated: false,
   menu: [

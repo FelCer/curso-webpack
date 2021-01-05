@@ -1,7 +1,7 @@
 # curso-webpack
 
 ### Descripción
-1. Webpack -> Module bundler for modern JavaScript applications.
+1. Webpack -> Module bundler for modern JavaScript applications( Un empaquetador para javascript y sus amigos O Es un empaquetador de módulos para aplicaciones modernas de JS)
 2. AMD -> Asynchronuos module definition, libreria que mas utiliza es require.js.
     Ejemplo: Cuando se carga el modulo a utilizar en un archivo JS, ya sea uno o varios.
 3. CommonJS -> Sistema de módulos en node.js. (un solo archivo que contiene todas las peticiones.)

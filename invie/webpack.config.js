@@ -3,6 +3,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = (env) => {
+
+    var mode = (env.NODE_ENV) ? env.NODE_ENV : "";
+
     var plugins = [
         new MiniCssExtractPlugin({
             filename: "./css/[name].[fullhash].css",
@@ -14,13 +17,14 @@ module.exports = (env) => {
         plugins.push(
             new CleanWebpackPlugin()
         );
+        mode = "production"
     }
 
     // Try the environment variable, otherwise use root
     const ASSET_PATH = process.env.ASSET_PATH || '/';
 
     return {
-        mode: 'production',
+        mode: mode,
         entry: {
             home: path.resolve(__dirname, 'src/index.js')
         },
